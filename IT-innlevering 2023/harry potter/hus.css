@@ -170,17 +170,136 @@ body {
 
 }
 
-h1{
-    font-size: 150px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.header-content{
+    margin-bottom: 10vh;
+    color: whitesmoke;
+    text-align: center;
+    position: fixed;
+}
+
+.header-content h2{
+    font-size: 5vw;
+}
+
+.line{
+    width: 50%;
+    height: 5px;
+    background: rgb(32, 32, 149);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Ravnklo-historie seksjon */
+.historie{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-color: rgb(32, 78, 106);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 4vw;
+    color: silver;
+    margin-top: 10vh;
+}
+.line2{
+    width: 50%;
+    height: 5px;
+    background: goldenrod;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(103, 70, 30);
+    padding: 5vw;
+    margin-top: 10vh;
+    width: 90vw;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+    width: 50%;
+    margin-bottom: 5vh;
+}
+
+h4{
+    font-size: 3vw;
+    color: silver;
+    margin: 5vh auto;
+}
+p{
+    color: white;
+    padding: 0 5vw;
     text-align: center;
 }
 
-.container{
-    background-color: rgba(218, 165, 32, 0.653);
-    display: flex;
-    margin: 100px 100px;
-    height: 700px
+.historie .ctn{
+    margin-top: 5vh;
 }
+
+.row img{
+    width: 100%;
+    max-width: 500px;
+    height: 40vh;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .header-content h2 {
+        font-size: 10vw;
+    }
+    
+    .line {
+        width: 80%;
+    }
+    
+    .title {
+        font-size: 6vw;
+    }
+    
+    .line2 {
+        width: 80%;
+    }
+    
+    .row .col {
+        width: 100%;
+        margin-bottom: 10vh;
+    }
+}
+
+
+
+
 
 
 
