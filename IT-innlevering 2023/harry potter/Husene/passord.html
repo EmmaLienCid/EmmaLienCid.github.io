@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body class="pwBody">
+    <div class="form-box">
+        <h1 id="passord-tittel">Hva er passordet?</h1>
+        <div class="input-box">
+            <form action="griffing.html" onsubmit="return passcheck()" class="passform">
+                <input type="password" id="passG" placeholder="Passord">
+ 
+                <input type="submit" class="pwBtn">
+            </form>
+        
+            
+
+        </div>
+
+    </div>
+
+
+
+
+    
+</body>
+</html>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+ /* Boddyen må være på selve nettsiden siden det finnes flere bodyelementer i hpstilarket */
+    body{
+        background-image: url(./Bilder/bgbilde.jpeg);
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+
+    }
+
+
+    /* Dette er css for passord-dokumentet */
+
+    .form-box{
+        width: 500px;
+        background-color: rebeccapurple;
+        margin: 20% auto;
+        padding: 50px 0;
+        color: goldenrod;
+        box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+
+    }
+
+    #passord-tittel{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .input-box{
+        margin: 31px auto;
+        width: 80%;
+        border-bottom: 1px solid goldenrod;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .input-box input{
+        width: 90%;
+        border: none;
+        outline: none;
+        background: transparent;
+        color: goldenrod;
+    }
+
+    ::placeholder{
+        color: rgb(59, 5, 65);
+    }
+
+    .passform{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pwBtn{
+        text-align: right;
+        margin-right: 10px;
+        
+
+    }
+
+
+
+</style>
+
+<script>
+    var Grpassord = "Grisetryne"
+
+    function passcheck() {
+        if(document.getElementById('passG').value != Grpassord){
+            alert('Feil passord, prøv igjen.');
+            return false;
+
+        }
+        if(document.getElementById('pass1').value = Grpassord){
+
+        }
+    }
+</script>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="hpstilark.css">
+	<link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+	<!-- Apple chancery -->
+    <link href="https://fonts.cdnfonts.com/css/apple-chancery" rel="stylesheet">
+
+    <!-- Logoskrift -->
+    <link href="https://fonts.cdnfonts.com/css/spqr" rel="stylesheet">
+</head>
+<body>
+
+	<nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img class="logo-img" src="./Bilder/galtvortlogo.png" alt="Galtvort logo">
+            </a>
+           
+        </div>
+
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item">
+                <a href="hus.html">Hus</a>
+            </li>
+         
+            <li class="list-item">
+                <a href="kilder.html">Kilder
+                </a>
+            </li>
+        </ul>
+
+        <div class="hamburger" id="toggle-button">
+            <div class="burger">
+                
+
+            </div>
+        </div>
+     
+    </nav>
+
+    <main>
+        <h1>Hvilket hus hører du til?</h1>
+        <h2></h2>
+
+
+		<section class="quiz-box">
+
+			<article class ="quiz-article">
+
+			  <h3 class="spm">Hva tror du er din beste egenskap som en venn?</h3>
+
+			  <label class="svar" data-value="h">
+				<input type="radio" name="spm1">Empatisk
+			  </label>
+
+			  <label class="svar" data-value="s">
+				<input type="radio" name="spm1">Engasjerende
+			  </label>
+
+			  <label class="svar" data-value="g" >
+				<input type="radio" name="spm1">Lojal
+			  </label>
+
+			  <label class="svar" data-value="r">
+				<input type="radio" name="spm1">Hjelpsom
+			  </label>
+
+			</article>
+
+			<article class ="quiz-article">
+
+			  <h3 class="spm">Hvordan håndterer du utfordringer?</h3>
+
+			  <label class="svar" data-value="r">
+				<input type="radio" name="spm2">Jeg analyserer utfordringen grundig og prøver å tenke ut den beste løsningen
+			  </label>
+
+			  <label class="svar" data-value="s">
+				<input type="radio" name="spm2">Jeg ville tatt en taktisk besluttning, hvor utfallet ikke medfører meg konsikvenser
+			  </label>
+
+			  <label class="svar" data-value="g" >
+				<input type="radio" name="spm2">Jeg ville handlet raskt og impulsivt. 
+			  </label>
+
+			  <label class="svar" data-value="h">
+				<input type="radio" name="spm2">Jeg ville spurt om hjelp og støtte, og vurdere konsikvensene til en hver besluttning
+			  </label>
+
+			</article>
+
+			<article class ="quiz-article">
+
+			  <h3 class="spm">Hvilken type literatur liker du aller best?</h3>
+
+			  <label class="svar" data-value="g">
+				<input type="radio" name="spm3">Action eller eventyrromaner
+			  </label>
+
+			  <label class="svar" data-value="r">
+				<input type="radio" name="spm3">Historie, krim eller biografi
+			  </label>
+
+			  <label class="svar" data-value="s" >
+				<input type="radio" name="spm3"> Krim eller science fiction
+			  </label>
+
+			  <label class="svar" data-value="h">
+				<input type="radio" name="spm3">Fantasy, romantikk eller komedie
+			  </label>
+
+			</article>
+
+			<article class ="quiz-article">
+
+			  <h3 class="spm">Hvilket miljø trives du best i?</h3>
+
+			  <label class="svar" data-value="h">
+				<input type="radio" name="spm4">Et inkluderende og sosialt miljø hvor alle blir hørt og respektert
+			  </label>
+
+			  <label class="svar" data-value="s">
+				<input type="radio" name="spm4">Et miljø med målbeviste mennesker som utfordrer deg til å tenke større
+			  </label>
+
+			  <label class="svar" data-value="g" >
+				<input type="radio" name="spm4">Et sted hvor det skjer mye, og det er høyt tempo og konkurranse
+			  </label>
+
+			  <label class="svar" data-value="r">
+				<input type="radio" name="spm4">En rolig og fredelig atmosfære hvor man kan fokusere på kunnskap og intellektuelle utfordringer
+			  </label>
+
+			</article>
+
+			<article class ="quiz-article">
+
+			  <h3 class="spm">Hva er din største frykt?</h3>
+
+			  <label class="svar" data-value="s">
+				<input type="radio" name="spm5">Å bli ydmyket eller misslykkes
+			  </label>
+
+			  <label class="svar" data-value="h">
+				<input type="radio" name="spm5">Å være alene
+			  </label>
+
+			  <label class="svar" data-value="r" >
+				<input type="radio" name="spm5">Å miste sin kreativitet eller å ikke ha nok inspirasjon
+			  </label>
+
+			  <label class="svar" data-value="g">
+				<input type="radio" name="spm5">Å ikke strekke til forventningene
+			  </label>
+
+			</article>
+
+			<article class ="quiz-article">
+
+			  <h3 class="spm">Hva er dine værste egenskaper</h3>
+
+			  <label class="svar" data-value="r">
+				<input type="radio" name="spm6">Dømmene og skeptisk
+			  </label>
+
+			  <label class="svar" data-value="s">
+				<input type="radio" name="spm6">Manipulerende
+			  </label>
+
+			  <label class="svar" data-value="g" >
+				<input type="radio" name="spm6">Sta og stolt
+			  </label>
+
+			  <label class="svar" data-value="r">
+				<input type="radio" name="spm6">Naiv og konfliksky
+			  </label>
+
+			</article>
+
+			<article class ="quiz-article">
+
+			  <h3 class="spm">Hva er viktigst for deg når du skal ta en besluttning</h3>
+
+			  <label class="svar" data-value="r">
+				<input type="radio" name="spm7">Å være logisk og rasjonell
+			  </label>
+
+			  <label class="svar" data-value="h">
+				<input type="radio" name="spm7">Å ta hensyn til hva majoriteten ønsker
+			  </label>
+
+			  <label class="svar" data-value="s" >
+				<input type="radio" name="spm7">Å tenke på det langsiktige resultatet
+			  </label>
+
+			  <label class="svar" data-value="g">
+				<input type="radio" name="spm7">Å følge hjertet eller magefølelsen
+			  </label>
+
+			</article>
+
+			<button id="submit">
+				Send inn
+			</button>
+
+		  </section>
+	
+	
+	
+
+    </main>
+
+	<div class="bakgrunn">
+		<div class="svarboks">
+			<h1>Gratulerer! Du er plasert i:</h1>
+			<p id="resultat"></p>
+			<p id="passord"></p>
+			<br><br>
+
+			<a href="index.html">Tilbake til forsiden</a>
+		</div>
+
+	</div>
+
+</body>
+
+<style>
+
+	main{
+		text-align: center;
+	}
+
+	
+	
+</style>
+
+
+
+
+
+<script>
+
+	
+
+document.getElementById("passord");
+
+//Popup-boks
+document.getElementById('submit').addEventListener('click', function(){
+        document.querySelector('.bakgrunn').style.display = 'flex';
+		document.querySelector('main').style.display ='none';
+		
+
+    });
+
+	
+
+
+//selve testen
+	const submitButton = document.getElementById("submit");
+	const answers = document.querySelectorAll(".svar input");
+	let hCounter = 0;
+	let sCounter = 0;
+	let gCounter = 0;
+	let rCounter = 0;
+	const resultatBox = document.getElementById("resultat");
+	const passordBox = document.getElementById('passord');
+
+	submitButton.addEventListener("click", function() {
+		
+		for (let i = 0; i < answers.length; i++) {
+			if (answers[i].checked) {
+			const value = answers[i].parentNode.getAttribute("data-value");
+			if (value === "h") {
+				hCounter++;
+			} else if (value === "s") {
+				sCounter++;
+			} else if (value === "g") {
+				gCounter++;
+			} else if (value === "r") {
+				rCounter++;
+			}
+		}
+		
+	}
+
+	//Resultat
+	let maxCounter = Math.max(hCounter, sCounter, gCounter, rCounter);
+	let result = "";
+	let passord = "";
+	if (maxCounter === hCounter) {
+		result = "HÅSBLÅS!";
+		passord = "Snegle"
+	} else if (maxCounter === sCounter) {
+		result = "SMYGARD!";
+		passord = "Fullblods"
+	} else if (maxCounter === gCounter) {
+		result = "GRIFFING!";
+		passord = "Grisetryne"
+	} else if (maxCounter === rCounter) {
+		result = "RAVNKLO!";
+		passord = "Honning"
+	}
+
+	resultatBox.textContent = result;
+	passordBox.textContent = "Ditt passord er: " + passord;
+
+
+	hCounter = 0;
+	sCounter = 0;
+	gCounter = 0;
+	rCounter = 0;
+});
+
+
+
+
+
+
+
+
+</script>
+</html>
+
+
+
+
+

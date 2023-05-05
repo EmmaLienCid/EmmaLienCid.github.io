@@ -1,4 +1,6 @@
 
+
+
 const menuBTN = document.querySelector(".hamburger")
 let menuOpen = false;
 menuBTN.addEventListener('click', () => {
@@ -17,6 +19,14 @@ const naviList = document.getElementById('navi-list');
 toggleButton.addEventListener('click', () => {
     naviList.classList.toggle('active');
 })
+
+
+
+
+
+
+
+
 
 
 
